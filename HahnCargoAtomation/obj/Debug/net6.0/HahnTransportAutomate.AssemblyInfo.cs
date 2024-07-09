@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HahnTransportAutomate")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25159c26e59321a9fa3a48ed007f60a3c87a5860")]
 [assembly: System.Reflection.AssemblyProductAttribute("HahnTransportAutomate")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HahnTransportAutomate")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

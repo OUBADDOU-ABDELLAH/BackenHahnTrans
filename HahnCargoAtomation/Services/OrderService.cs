@@ -73,12 +73,14 @@ namespace HahnTransportAutomate.Services
             List<Connection> connectionList = gridResult?.Connections;
             bool isConAvailable = gridService.ConnectionAvailable(connectionList, startNodeId, order.TargetNodeId);
             int userCoins = 0;
+            bool isAlreadyAccepted = false;
             if (isConAvailable is true)
             {
                 userCoins = await userService.GetCoins(token);
                 if (userCoins > 0)
                 {
                     result = await orderManager.Accept(order.Id, token);
+                    isAlreadyAccepted = true;
                 }
             }
             else
@@ -93,12 +95,16 @@ namespace HahnTransportAutomate.Services
             {
                 ResultBuyCarDto order_positionSatrtNodeId = await strategyService.TransPositionNodeId(token);
                 int transId = await cargoTransporterService.Buy(order_positionSatrtNodeId.PositionNodeId, username,token);
-                bool acceptorder = await orderManager.Accept(order_positionSatrtNodeId.OrderId, token);
-                if (acceptorder is true)
+                if (isAlreadyAccepted == false)
                 {
-                    result = await cargoTransporterService.Move(transId, order.TargetNodeId, token);
+                    bool acceptorder = await orderManager.Accept(order_positionSatrtNodeId.OrderId, token);
+                    if (acceptorder is true)
+                    {
+                        result = await cargoTransporterService.Move(transId, order.TargetNodeId, token);
 
+                    }
                 }
+
 
             }
             if (userCoins == 0)

@@ -2805,11 +2805,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AbdellahOubaddou\\Desktop\\HahnTransporter\\BackendHahnTransportAutomate\\HahnCargoAtomation\\HahnTransportAutomate.csproj",
+      "projectUniqueName": "C:\\Users\\AbdellahOubaddou\\Desktop\\HahnTransporter\\BackenHahnTrans\\HahnCargoAtomation\\HahnTransportAutomate.csproj",
       "projectName": "HahnTransportAutomate",
-      "projectPath": "C:\\Users\\AbdellahOubaddou\\Desktop\\HahnTransporter\\BackendHahnTransportAutomate\\HahnCargoAtomation\\HahnTransportAutomate.csproj",
+      "projectPath": "C:\\Users\\AbdellahOubaddou\\Desktop\\HahnTransporter\\BackenHahnTrans\\HahnCargoAtomation\\HahnTransportAutomate.csproj",
       "packagesPath": "C:\\Users\\AbdellahOubaddou\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AbdellahOubaddou\\Desktop\\HahnTransporter\\BackendHahnTransportAutomate\\HahnCargoAtomation\\obj\\",
+      "outputPath": "C:\\Users\\AbdellahOubaddou\\Desktop\\HahnTransporter\\BackenHahnTrans\\HahnCargoAtomation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\AbdellahOubaddou\\AppData\\Roaming\\NuGet\\NuGet.Config",

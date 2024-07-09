@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2vgjHwXcsqBZBu7zDYFhiaX9/0ea7eKx7msXV/XPGXj/lNYsYWuOTtFKBpxhJjXgfsDtoJKBPq/R87kutYicjA==",
+  "dgSpecHash": "sHbmfk9P1jeHK5PpMshI08XWploAiAQphijgbBR0VHV5XwyD1mpyQBakm4nUWd3iQ0mfYvl8jq24q8kgPYSMcQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\AbdellahOubaddou\\Desktop\\HahnTransporter\\BackendHahnTransportAutomate\\HahnCargoAtomation\\HahnTransportAutomate.csproj",
+  "projectFilePath": "C:\\Users\\AbdellahOubaddou\\Desktop\\HahnTransporter\\BackenHahnTrans\\HahnCargoAtomation\\HahnTransportAutomate.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AbdellahOubaddou\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\AbdellahOubaddou\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
